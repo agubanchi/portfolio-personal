@@ -1,0 +1,103 @@
+import {
+  SiAdobeaftereffects,
+  SiAdobeillustrator,
+  SiAdobedreamweaver,
+  SiAdobephotoshop,
+  SiVisualstudiocode,
+  SiHtml5,
+  SiCss3,
+  SiJavascript,
+  SiTypescript,
+  SiReact,
+  SiBootstrap,
+  SiTailwindcss,
+  SiWordpress,
+  SiGoogle,
+} from "react-icons/si";
+
+export const skills = [
+  {
+    skill: "After Effects",
+    id: 1,
+    name: "Contacts",
+    icon: SiAdobeaftereffects,
+  },
+  {
+    skill: "Dream Weaver",
+    id: 2,
+    name: "Contacts",
+    icon: SiAdobedreamweaver,
+  },
+  {
+    skill: "Illustrator",
+    id: 3,
+    name: "Contacts",
+    icon: SiAdobeillustrator,
+  },
+  {
+    skill: "Photoshop",
+    id: 4,
+    name: "Contacts",
+    icon: SiAdobephotoshop,
+  },
+  {
+    skill: "Visual Studio Code",
+    id: 5,
+    name: "Contacts",
+    icon: SiVisualstudiocode,
+  },
+  {
+    skill: "HTML5",
+    id: 6,
+    name: "Contacts",
+    icon: SiHtml5,
+  },
+  {
+    skill: "CSS3",
+    id: 7,
+    name: "Contacts",
+    icon: SiCss3,
+  },
+  {
+    skill: "JavaScript",
+    id: 8,
+    name: "Contacts",
+    icon: SiJavascript,
+  },
+  {
+    skill: "Typescript",
+    id: 9,
+    name: "Contacts",
+    icon: SiTypescript,
+  },
+  {
+    skill: "React",
+    id: 10,
+    name: "Contacts",
+    icon: SiReact,
+  },
+  {
+    skill: "Bootstrap",
+    id: 11,
+    name: "Contacts",
+    icon: SiBootstrap,
+  },
+  {
+    skill: "Tailwind.css",
+    id: 12,
+    name: "Contacts",
+    icon: SiTailwindcss,
+  },
+  {
+    skill: "Wordpress / Woocomerce",
+    id: 13,
+    name: "Contacts",
+    icon: SiWordpress,
+  },
+  {
+    skill: "Google Web Designer",
+    id: 14,
+    name: "Contacts",
+    icon: SiGoogle,
+  },
+];
