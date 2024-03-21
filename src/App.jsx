@@ -1,3 +1,4 @@
+import Changetheme from "./components/Changetheme"
 import Conocimientos from "./components/Conocimientos"
 import Contacto from "./components/Contacto"
 import Experiencia from "./components/Experiencia"
@@ -11,6 +12,7 @@ function App() {
 
   return (
     <>
+
       <Navbar/>
       <Hero/>
       <Experiencia/>

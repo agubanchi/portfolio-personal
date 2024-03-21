@@ -7,6 +7,6 @@ html {
   @apply font-Onest scroll-smooth;
 }
 
-body {
-  @apply box-border bg-gray-900 text-gray-100;
+.dark {
+  background-color: #1d1d1d;
 }

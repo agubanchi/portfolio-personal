@@ -63,12 +63,12 @@ const Experiencia = () => {
   return (
     <>
     <div id='experiencia' className="flex-1 w-3/4   md:py-10 items-center mx-auto">
-    <h1 className="text-withe md:text-5xl text-center   text-4xl font-bold  gap-x-4 pb-4 pt-5">
+    <h1 className="dark:text-white text-deepGreen md:text-5xl text-center   text-4xl font-bold  gap-x-4 pb-4 pt-5">
             Experiencia
         </h1>
         <div className='w-3/4'>
           
-<ol className="relative border-s border-green-200 dark:border-gray-700 ">  
+<ol className="relative border-s border-deepGreen dark:border-white ">  
 {
   experience.map(experience=>(
     <li className="mb-10 ms-4" key={experience.description}>

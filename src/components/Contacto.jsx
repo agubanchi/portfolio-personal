@@ -41,11 +41,11 @@ const Contacto = () => {
   return (
     <section id="contacto" className="py-10 px-3 text-white mx-auto md:w-2/3">
       <div className="text-center mt-8">
-        <h1 className="sm:text-5xl text-3xl font-bold  text-white mb-4">
+        <h1 className="sm:text-5xl text-3xl font-bold text-deepGreen  dark:text-white mb-4">
           Contacto
         </h1>
 
-        <div className="mt-16 flex md:flex-row flex-col gap-6 max-w-5xl bg-green-600 md:p-6 p-2 rounded-lg mx-auto">
+        <div className="mt-16 flex md:flex-row flex-col gap-6 max-w-5xl dark:bg-deepGreen bg-darkMode md:p-6 p-2 rounded-lg mx-auto">
           <form className="flex flex-col flex-1 gap-5" ref={form} onSubmit={sendEmail}>
             <label className='font-bold text-left'>Nombre</label>
             <input className='border-2 border-white bg-transparent py-2 px-2 rounded placeholder:font-light placeholder:text-gray-200 placeholder:px-3' type="text" name="user_name" placeholder='Nombre' />
@@ -53,7 +53,7 @@ const Contacto = () => {
             <input className='border-2 border-white bg-transparent py-2 px-2 rounded placeholder:font-light placeholder:text-gray-200 placeholder:px-3' type="email" name="user_email" placeholder='ejemplo@email.com' />
             <label className='font-bold text-left'>Mensaje</label>
             <textarea className='font-bold text-left border-2 border-white bg-transparent py-2 px-2 rounded placeholder:font-light placeholder:text-gray-200 placeholder:px-3' name="message" placeholder='Escribe aqui tu mensaje...' />
-            <button className='bg-white text-green-600 py-2 rounded placeholder:font-light placeholder:text-gray-200 placeholder:px-3' type="submit">Enviar</button>
+            <button className='bg-white text-deepGreen py-2 rounded placeholder:font-light placeholder:text-gray-200 placeholder:px-3 hover:bg-deepGreen hover:text-white dark:hover:bg-darkMode' type="submit">Enviar</button>
           </form>
        
         </div>

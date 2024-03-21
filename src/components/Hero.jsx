@@ -17,21 +17,21 @@ const Hero = () => {
       </div>
       <div className='flex-1'>
         <div className="md:text-left text-center">
-        <h1 className="text-withe md:text-5xl   text-4xl font-bold  gap-x-4 pb-4 pt-5">
+        <h1 className="text-withe md:text-5xl text-deepGreen dark:text-white   text-4xl font-bold  gap-x-4 pb-4 pt-5">
             Hola, soy <span>Agustin Banchi</span>
         </h1>
-        <h2 className='text-withe  text-2xl opacity-80'><span className='text-green-600 font-bold'>+5 años de experiencia </span>trabajando como
+        <h2 className='text-withe  text-2xl dark:text-white'><span className='text-deepGreen font-bold'>+5 años de experiencia </span>trabajando como
 diseñador multimedial & desarrollador
 front-end en agencias de software y medios.
 En constante aprendizaje de nuevas
 tecnologías.
 Mi objetivo es seguir desarrollándome
 profesionalmente en el mundo IT. </h2>
-<button type='download' className='text-withe font-bold bg-green-600 hover:text-green-600 hover:bg-white py-3 px-6 rounded-full  flex items-center gap-2 mt-6 md:mx-2 mx-auto'><a href={Curriculum} download=''>Descargar CV</a></button>
+<button type='download' className='text-white font-bold bg-deepGreen hover:text-white hover:bg-darkMode dark:hover:bg-white py-3 px-6 rounded-full  flex items-center gap-2 mt-6 md:mx-2 mx-auto'><a href={Curriculum} download=''>Descargar CV</a></button>
 <div className='flex mt-8 text-3xl items-center md:justify-start justify-center gap-5 mx-2'>
 {
   social_media.map(icon=>(
-<div key={icon} className='text-green-600 hover:text-white cursor-pointer'>
+<div key={icon} className='text-deepGreen hover:text-darkMode dark:hover:text-white cursor-pointer'>
 <a href={icon.link} target='_blank'> <ion-icon name={icon.name}></ion-icon> </a>
 </div>
   ))
